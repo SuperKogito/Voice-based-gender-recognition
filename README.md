@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition.svg)](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition)
+
 # Voice-based-gender-recognition
 Voice based gender recognition using Mel-frequency cepstrum coefficients (MFCC)  and Gaussian mixture models (GMM).
 
