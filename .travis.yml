@@ -13,4 +13,4 @@ before_script:
 
 # command to run tests
 script:
-  - python3 Run.py
+  - travis_wait 30 python3 Run.py
