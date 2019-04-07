@@ -1,7 +1,12 @@
 [![HitCount](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition.svg)](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition)
 
 # Voice-based-gender-recognition
-Voice based gender recognition using Mel-frequency cepstrum coefficients (MFCC)  and Gaussian mixture models (GMM).
+Voice based gender recognition using:
+  - **The Free ST American English Corpus dataset (SLR45)**
+  - **Mel-frequency cepstrum coefficients (MFCC)**
+  - **Gaussian mixture models (GMM)**
+## Dataset
+The  **The Free ST American English Corpus dataset (SLR45)**  can be found on [SLR45](http://www.openslr.org/45/). It is a free American English corpus by [Surfingtech](www.surfing.ai), containing utterances from 10 speakers (5 females and 5 males). Each speaker has about 350 utterances.
 
 ## Theory
 
@@ -22,10 +27,21 @@ A Gaussian Mixture Model (GMM) is a parametric probability density function repr
 ![](graphVGI.png)
 
 ## Dependencies
-This script require the follwing modules/libraries: 
+This script require the follwing modules/libraries:
 * [numpy](http://www.numpy.org/) & [scipy](https://www.scipy.org/) & [scikit-learn](https://scikit-learn.org/stable/) & [python_speech_features](https://github.com/jameslyons/python_speech_features)
 
 Libs can be installed as follows:
 ```
-pip install (insert lib-name)
+pip install -r requirements.txt
 ```
+## Code & scripts
+- [Run.py](Run.py) : This is the main script and it will run the whole cycle (Data management > Models training > Genders identification)
+- [DataManager.py](Code/DataManager.py): This script is responsible for the extracting and strcturing the data.
+- [ModelsTrainer.py](Code/ModelsTrainer.py):This script is responsible for training the Gaussian Mixture Models (GMM).
+- [GenderIdentifier.py](Code/GenderIdentifier.py):This script is responsible for Testing the system by identifying the genders of the testing set.
+- [FeaturesExtractor.py](Code/FeaturesExtractor.py):This script is responsible for extracting the MFCC features from the .wav files.
+
+# Results and disscussion
+- The system results in a **95%** accuracy of gender detection.
+- The code can be further optimized using multi-threading, acceleration libs and multi-processing.
+- The accuracy can be further improved using GMM normalization aka a UBM-GMM system.
