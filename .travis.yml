@@ -13,4 +13,4 @@ before_script:
 
 # command to run tests
 script:
-  - Run.py
+  - python3 Run.py
