@@ -26,7 +26,10 @@ According to D. Reynolds in [Gaussian_Mixture_Models](https://pdfs.semanticschol
 A Gaussian Mixture Model (GMM) is a parametric probability density function represented as a weighted sum of Gaussian component densities. GMMs are commonly used as a parametric model of the probability distribution of continuous measurements or features in a biometric system, such as vocal-tract related spectral features in a speaker recognition system. GMM parameters are estimated from training data using the iterative Expectation-Maximization (EM) algorithm or Maximum A Posteriori(MAP) estimation from a well-trained prior model.
 
 #### Workflow graph
-![](graphVGI.png)
+<p align="center">
+  <img src="graphVGI.png" width="600"/>
+</p>
+
 
 ## Dependencies
 This script require the follwing modules/libraries:
