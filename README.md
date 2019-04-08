@@ -1,5 +1,7 @@
 [![HitCount](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition.svg)](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition)
 
+[![Build Status](https://travis-ci.com/SuperKogito/Voice-based-gender-recognition.svg?branch=master)](https://travis-ci.com/SuperKogito/Voice-based-gender-recognition)
+
 # Voice-based-gender-recognition
 Voice based gender recognition using:
   - **The Free ST American English Corpus dataset (SLR45)**
@@ -41,7 +43,7 @@ pip install -r requirements.txt
 - [GenderIdentifier.py](Code/GenderIdentifier.py):This script is responsible for Testing the system by identifying the genders of the testing set.
 - [FeaturesExtractor.py](Code/FeaturesExtractor.py):This script is responsible for extracting the MFCC features from the .wav files.
 
-# Results and disscussion
+## Results and disscussion
 - The system results in a **95%** accuracy of gender detection.
 - The code can be further optimized using multi-threading, acceleration libs and multi-processing.
 - The accuracy can be further improved using GMM normalization aka a UBM-GMM system.
