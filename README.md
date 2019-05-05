@@ -27,7 +27,7 @@ A Gaussian Mixture Model (GMM) is a parametric probability density function repr
 
 #### Workflow graph
 <p align="center">
-  <img src="graphVGI.png" width="600"/>
+  <img src="genderspeaker.png" width="600"/>
 </p>
 
 
