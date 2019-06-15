@@ -30,6 +30,9 @@ A Gaussian Mixture Model (GMM) is a parametric probability density function repr
   <img src="genderspeaker.png" width="700"/>
 </p>
 
+---------------  
+- #### For a more detailed explanation, please refer to this [blog](https://superkogito.github.io/blog/VoiceBasedGenderRecognition.html) that I have written.
+-----------------
 
 ## Dependencies
 This script require the follwing modules/libraries:
