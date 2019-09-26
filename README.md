@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition.svg)](http://hits.dwyl.io/SuperKogito/Voice-based-gender-recognition)
+UPDATE TO COME!
 
 [![Build Status](https://travis-ci.com/SuperKogito/Voice-based-gender-recognition.svg?branch=master)](https://travis-ci.com/SuperKogito/Voice-based-gender-recognition)
 
