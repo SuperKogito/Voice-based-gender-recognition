@@ -1,5 +1,3 @@
-UPDATE TO COME!
-
 [![Build Status](https://travis-ci.com/SuperKogito/Voice-based-gender-recognition.svg?branch=master)](https://travis-ci.com/SuperKogito/Voice-based-gender-recognition)
 
 # Voice-based-gender-recognition
